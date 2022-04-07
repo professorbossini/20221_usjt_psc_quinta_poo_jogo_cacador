@@ -1,3 +1,5 @@
+//alta coesão
+//você deseja que a sua classe seja altamente coesa
 public class Personagem{
     String nome;
     int energia;
