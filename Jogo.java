@@ -12,5 +12,22 @@ public class Jogo {
         p.nome = leitor.next();
         //3. Exibir esse nome
         System.out.println("O nome do seu personagem é: " + p.nome);
+
+        //Fazer o personagem caçar 2 vezes
+        p.cacar();
+        p.cacar();
+
+        //Fazer o personagem dormir 1 vez
+        p.dormir();
+
+        //Fazer o personagem somar 2 números e exibir o resultado
+        int res = p.somar(2, 3);
+        System.out.println(res);
+
+        //Fazer o personagem caçar 1 vez
+        p.cacar();
+
+        //Fazer o personagem comer 1 vez
+        p.comer();
     }
 }

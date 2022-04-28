@@ -11,7 +11,7 @@ public class Personagem{
     //2. nome
     //3. lista de parâmetros
     //4. corpo
-    void cacar (){
+    void cacar(){
         System.out.println(nome + " caçando...");
     }
 
@@ -20,7 +20,7 @@ public class Personagem{
     }
 
     void comer(){
-        System.out.println(nome + "comendo...");
+        System.out.println(nome + " comendo...");
     }
 
     int somar(int a, int b){
