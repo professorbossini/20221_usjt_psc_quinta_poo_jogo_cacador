@@ -14,8 +14,11 @@ public class Jogo {
         System.out.println("O nome do seu personagem é: " + p.nome);
 
         //Fazer o personagem caçar 2 vezes
-        p.cacar();
-        p.cacar();
+        int contador = 1;
+        while (contador <= 2){
+            p.cacar();
+            contador++;
+        }
 
         //Fazer o personagem dormir 1 vez
         p.dormir();
