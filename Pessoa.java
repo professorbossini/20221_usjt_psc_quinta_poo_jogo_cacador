@@ -6,8 +6,8 @@ public class Pessoa {
     //métodos de acesso e modificadores
     //atribuir um valor à variável nome
     //setter para a variável nome
-    public void setNome(String nome){
-        this.nome = nome;
+    public void setNome(String n){
+        this.nome = n;
     }
 
     //setter para a variável idade
@@ -20,7 +20,7 @@ public class Pessoa {
 
     //getter para a variável nome
     public String getNome(){
-        return nome;
+        return this.nome;
     }
 
     public int getIdade(){
