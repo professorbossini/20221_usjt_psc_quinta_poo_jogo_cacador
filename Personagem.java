@@ -2,9 +2,9 @@
 //você deseja que a sua classe seja altamente coesa
 public class Personagem{
     String nome;
-    int energia = 10;
-    int fome = 0;
-    int sono = 0;
+    private int energia = 10;
+    private int fome = 0;
+    private int sono = 0;
     
     //metódo tem quatro partes
     //1. tipo de retorno
@@ -36,7 +36,7 @@ public class Personagem{
         if (sono >= 1){
             System.out.println(nome + " dormindo...");
             sono--;
-              energia = energia + 1 <= 10 ? energia + 1 : 10;          
+            energia = energia + 1 <= 10 ? energia + 1 : 10;          
         }
         else{
             System.out.println (nome + " sem sono...");
